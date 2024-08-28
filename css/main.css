@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+    
+header{
+    height: 50vh;
+    background: url(https://media.istockphoto.com/id/1872274401/photo/angkor-wat-temple-siem-reap-cambodia.jpg?s=1024x1024&w=is&k=20&c=ak8PTi-WxF3Zp7hMesLjLDrfaKCF_qUtymGpNZILZ9U=);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid red;
+}
+.contanier, section{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    
+    
+}
+section .card{
+    border: 1px solid red;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.card img{
+    width: 280px;
+    border-radius: 10px;
+    
+
+}
+.map{
+    margin-top: 20px;
+}
+.navbar{
+    list-style: none;
+    background-color: aqua;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover{
+    color: pink;
+}
+
